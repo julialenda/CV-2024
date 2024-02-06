@@ -1,0 +1,167 @@
+/* Global Styling */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 171%;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+/* Block Styling */
+
+div.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin: 40px auto;
+  width: 1200px;
+  height: 1319px;
+  box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+main {
+  padding-top: 102px;
+  padding-right: 217px;
+  padding-left: 88px;
+}
+
+.header {
+  margin-bottom: 40px;
+  width: 400px;
+  height: 230px;
+}
+
+.projects {
+  margin-bottom: 51px;
+  width: 485px;
+  height: 107px;
+}
+
+.folio-list-all {
+  margin-top: 8px;
+}
+
+div.work-glory-new,
+div.work-glory-llc {
+  margin-top: 12px;
+}
+
+div.education {
+  margin-top: 43px;
+}
+aside {
+  background-color: #1e2939;
+}
+
+aside img {
+  margin-top: 30px;
+}
+
+.side-info {
+  margin: 51px 0px 0px 40px;
+}
+
+.contacts {
+  margin-top: 57px;
+}
+
+.contacts p {
+  margin-top: 8px;
+}
+
+.tech-skills {
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+
+.soft-skills {
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+
+/* Aside Font Styling */
+aside,
+aside h2 {
+  color: white;
+}
+
+.contacts a {
+  color: #ffff;
+  opacity: 0.5;
+}
+a.tel {
+  text-decoration: none;
+}
+
+li.aside-list::marker {
+  color: orange;
+}
+.invisible-dots {
+  opacity: 0;
+  letter-spacing: 0.3rem;
+}
+
+/* ------------------------------------------------ */
+/* Fonts Styling */
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #000;
+  margin-top: 19px;
+  margin-bottom: 24px;
+  line-height: 45px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h3,
+h3 span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.work-experience p,
+.education p {
+  font-weight: 400;
+  font-size: px;
+  color: #a8a8a8;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.orange-typo {
+  color: #fb6d3a;
+}
+
+li.folio-list::marker {
+  font-weight: 700;
+}
+
+li.folio-list a {
+  text-decoration: none;
+  color: #595959;
+}
+
+.letter-spacing {
+  letter-spacing: 0.15rem;
+}
+
+/* ------------------------------------------------ */
